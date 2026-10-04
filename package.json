@@ -1,25 +1,13 @@
 {
-  "name": "telegram-auto-poster",
+  "name": "render-telegram-backend",
   "version": "1.0.0",
-  "description": "Telegram auto poster bot with dynamic queue scheduler",
+  "description": "Render Express Backend for Telegram Auto-Posting",
   "main": "index.js",
-  "type": "commonjs",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js"
+    "start": "node index.js"
   },
-  "keywords": [
-    "telegram",
-    "bot",
-    "telegraf",
-    "auto-poster",
-    "node-cron"
-  ],
-  "author": "bs bhai",
-  "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "node-cron": "^3.0.3",
+    "express": "^4.19.2",
     "telegraf": "^4.16.3"
   }
 }
